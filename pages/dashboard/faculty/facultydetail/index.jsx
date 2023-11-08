@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SwitchTab from '@/components/features/switchtab2';
+import SwitchTab from '@/components/features/Switchtab2';
 
 const Course = ({ courses, pathId }) => {
     const [activeTab, setActiveTab] = useState(0);
