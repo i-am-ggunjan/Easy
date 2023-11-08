@@ -4,7 +4,7 @@ import BookSeatCard from '@/components/card/BookSeatCard';
 import CourseCardOne from '@/components/card/CourseCardOne';
 import FeedBackCard from '@/components/card/FeedBackCard';
 import ResponsiveCarousel from '@/components/card/ResponsiveCarousel';
-import SwiperSlider from '@/components/features/Swiper';
+// import SwiperSlider from '@/components/features/Swiper';
 import useMediaQuery from '@/components/hooks/useMediaQuery';
 import { CoursesData, slide_content_one, slide_content_three, slide_content_two } from '@/utils/db';
 import { CommunityImage3, Communityimg1, Communityimg2, Communityimg5, Demoicons, Eduimg, Eduimg2, Eduimg3, Reviewicon, SubmitBtn, Timer } from '@/utils/icons/icons';
@@ -56,11 +56,11 @@ const Home = ({ courses, blogs }) => {
       <section className='lg:px-32 md:px-30 sm:px-10 px-4 py-10 sm:py-20'>
         <main className='flex flex-col gap-10 sm:gap-20'>
           <h5 className="text-[20px] md:text-[30px] text-[#231F40] font-extrabold text-center">Benefit’s of easyhaionline classes </h5>
-          <SwiperSlider
+          {/* <SwiperSlider
             slideContent={slide_content_two}
             swiperProps={swiperProps}
             customProps={customProps}
-          />
+          /> */}
         </main>
       </section>
 
@@ -219,11 +219,11 @@ const Home = ({ courses, blogs }) => {
       <section className='lg:px-32 md:px-30 sm:px-10 px-4 py-10 sm:py-10'>
         <main className='flex flex-col gap-10 sm:gap-10'>
           <h5 className="text-[20px] md:text-[30px] text-[#231F40] font-extrabold">Study Material</h5>
-          <SwiperSlider
+          {/* <SwiperSlider
             slideContent={slide_content_three}
             swiperProps={swiperProps}
             customProps={customProps}
-          />
+          /> */}
         </main>
       </section>
 

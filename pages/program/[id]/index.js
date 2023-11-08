@@ -17,7 +17,7 @@ import {
 } from '@/utils/icons/icons';
 import CourseCardTwo from '@/components/card/CourseCardTwo';
 import CourseBatchCard from '@/components/card/CourseBatchCard';
-import SwitchTab from '@/components/features/SwtichTab';
+// import SwitchTab from '@/components/features/SwtichTab';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 // @/utils/icons/icons
@@ -143,7 +143,7 @@ const Course = ({ courses, pathId }) => {
                 </div>
               </main>
 
-              <SwitchTab activeTab={activeTab} data={courses} />
+              {/* <SwitchTab activeTab={activeTab} data={courses} /> */}
             </main>
 
             <main className="bg-white sm:px-4 py-4 md:basis-[37%] basis-[100%] rounded-t-lg relative top-0 sm:top-[-120px] flex flex-col gap-10 shadow-md shadow-gray-300">

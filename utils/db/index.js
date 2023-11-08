@@ -9,7 +9,7 @@ export const navigationMenuList = [
   {
     id: 2,
     title: 'Course',
-   
+
     children: [
       {
         id: 1,
@@ -287,7 +287,7 @@ export const slide_content_one = [
 
 export const slide_content_two = [
   <div className="flex justify-center items-center flex-col gap-34">
-    <img src="/benifit/CONCEPT.jpg" className="object-contain " alt="Slide1"  />
+    <img src="/benifit/CONCEPT.jpg" className="object-contain " alt="Slide1" />
     <h3 className="text-[#231F40] text-[14px] sm:text-[18px] font-bold text-center">
       Concept clarity through visualsation
     </h3>
