@@ -1,7 +1,7 @@
 // import { BlogsData } from "@/utils/db";
 import BlogCard from '@/components/card/BlogCard';
-// import Pagination from '@/components/features/Pagination';
 import HeadingCard from '@/components/card/HeadingCard';
+import CustomPagination from '@/components/features/CustomPagination';
 const ServerUri = 'https://www.api.easyhaionline.com';
 
 const BlogPage = ({ data }) => {
@@ -18,7 +18,7 @@ const BlogPage = ({ data }) => {
             ))}
           </main>
 
-          {/* <Pagination /> */}
+          <CustomPagination />
         </article>
       </section>
     </>

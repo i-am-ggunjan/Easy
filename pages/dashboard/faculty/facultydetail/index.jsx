@@ -1,3 +1,4 @@
+import CustomSwitchtab2 from '@/components/features/CustomSwitchtab2';
 import React, { useState } from 'react';
 // import SwitchTab from '@/components/features/Switchtab2';
 
@@ -56,7 +57,7 @@ const Course = ({ courses, pathId }) => {
                                         </div>
                                     </main>
 
-                                    {/* <SwitchTab activeTab={activeTab} /> */}
+                                    <CustomSwitchtab2 activeTab={activeTab} />
                                 </main>
 
 

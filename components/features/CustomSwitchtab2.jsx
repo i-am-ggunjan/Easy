@@ -1,6 +1,6 @@
 import { MentorIcon, Reviewicon, Timer } from "@/utils/icons/icons";
 
-function SwitchTab2({ activeTab, data }) {
+function CustomSwitchtab2({ activeTab, data }) {
 
     switch (activeTab) {
         case 0:
@@ -19,7 +19,7 @@ function SwitchTab2({ activeTab, data }) {
                                 <div className="flex gap-5">
                                     <div className="bg-[#0B405D] rounded-full w-6 h-6 pl-[2px]">
 
-                                        <MentorIcon  />
+                                        <MentorIcon />
                                     </div>
                                     <div>
                                         Advance Level in CA/CS/CMS
@@ -141,18 +141,18 @@ function SwitchTab2({ activeTab, data }) {
 
         case 2:
             return <>
-            <div >
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
-                <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                <div >
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
+                    <li className="p-2 text-[#6F6B80]">Best Teaching Award of the year 2020 in maths</li>
 
-            </div>
+                </div>
             </>
             break;
 
@@ -162,4 +162,4 @@ function SwitchTab2({ activeTab, data }) {
     }
 }
 
-export default SwitchTab2
+export default CustomSwitchtab2

@@ -52,7 +52,7 @@ let FAQDetail = [
     },
 ]
 
-function SwitchTab({ activeTab, data }) {
+function CustomSwtichTab({ activeTab, data }) {
     const [dropDownTab, setDropDownTab] = useState(0)
 
     switch (activeTab) {
@@ -135,4 +135,4 @@ function SwitchTab({ activeTab, data }) {
     }
 }
 
-export default SwitchTab
+export default CustomSwtichTab

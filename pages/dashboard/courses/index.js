@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { DateIcon, DatePick, LeftArrow, RightArrow, SettingIcon, Tick, Timer } from '@/utils/icons/icons';
-// import Pagination from '@/components/features/Pagination';
 import DateScroller from '@/components/features/DateScroller';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';

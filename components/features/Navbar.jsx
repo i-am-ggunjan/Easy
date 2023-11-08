@@ -13,7 +13,7 @@ const Navbar = () => {
   const [openDrawer, closeDrawer, NavigationBar] = useDrawer();
   const { user } = useSelector((_) => _?.appState);
   const router = useRouter()
-  console.log("Router in Navbar ::: ", router)
+  // console.log("Router in Navbar ::: ", router)
   return (
     <>
       <NavigationBar isFull={true}>

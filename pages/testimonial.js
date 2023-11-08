@@ -1,8 +1,8 @@
 import React from 'react'
 import HeadingCard from '@/components/card/HeadingCard'
 import FeedBackCard from '@/components/card/FeedBackCard'
-// import Pagination from '@/components/features/Pagination'
 import { Reviewicon } from '@/utils/icons/icons'
+import CustomPagination from '@/components/features/CustomPagination'
 
 const feedbackData = [
     {
@@ -121,7 +121,7 @@ const Testimonial = () => {
                 </main>
 
                 <div className='pt-16 pb-6'>
-                    {/* <Pagination /> */}
+                    <CustomPagination />
                 </div>
             </section>
         </>
