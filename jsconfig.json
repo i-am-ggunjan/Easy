@@ -1,0 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "jsx": "react",
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
