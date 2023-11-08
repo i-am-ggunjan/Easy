@@ -52,7 +52,7 @@ let FAQDetail = [
     },
 ]
 
-function SwitchTab({ activeTab ,data }) {
+function SwitchTab({ activeTab, data }) {
     const [dropDownTab, setDropDownTab] = useState(0)
 
     switch (activeTab) {
@@ -72,9 +72,9 @@ function SwitchTab({ activeTab ,data }) {
                         <div className='text-[#231F40] text-[21px] sm:text-[24px] font-bold'>What will Learn On course</div>
                         <div className='text-[15px] text-[#6F6B80] text-justify flex flex-col gap-4'>
                             {
-                                data?.programFeatures.map((value,index) => (
+                                data?.programFeatures.map((value, index) => (
                                     <main key={index} className='flex items-center gap-3'>
-                                        <div className='text-[#FFC81D]'><Dot/></div>
+                                        <div className='text-[#FFC81D]'><Dot /></div>
                                         <div className="text-[14px] sm:text-[16px]">{value}</div>
                                     </main>
                                 ))

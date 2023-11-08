@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => {
   return (
     <>
       <HeadingCard heading={'Blogs'} subHeading={'Some of the courses blog are represented by Easyhai Online for instructing the students about the summary of courses they are interested to pursue in their particular interest course are as follows'
-} />
+      } />
 
       <section className="lg:px-44 md:px-30 sm:px-10 px-4 py-10">
         <article>
